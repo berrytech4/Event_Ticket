@@ -12,7 +12,7 @@ async function verifyTicket() {
   result.style.color = "black";
 
   const url =
-    "https://script.google.com/macros/s/AKfycbzF-ydT-ghoqEmAWzdCuaitKplVFkYUwuKTM0GlxqbxOtqI9BlDogHUnYskQWTexbJU/exec";
+    "https://script.google.com/macros/s/AKfycbyRSS18RGMNEO3BkQnCGQvJii7wD3NbmePxtVdFT2rlz9QxRKr9xavvBUP6N-kA2_1x/exec";
 
   try {
     const response = await fetch(url, {
@@ -43,3 +43,4 @@ async function verifyTicket() {
     console.error(error);
   }
 }
+
